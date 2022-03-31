@@ -1,12 +1,15 @@
-# Tags: latest, 2.4.2-debian-10-r14, 2.4.2, 2-debian-10, 2
+# Tags: latest, 2.4.2-debian-10-r15, 2.4.2, 2-debian-10, 2
 FROM bitnami/harbor-adapter-clair:latest
-FROM bitnami/harbor-adapter-clair:2.4.2-debian-10-r14
+FROM bitnami/harbor-adapter-clair:2.4.2-debian-10-r15
 FROM bitnami/harbor-adapter-clair:2.4.2
 FROM bitnami/harbor-adapter-clair:2-debian-10
 FROM bitnami/harbor-adapter-clair:2
 
 # Tags: _
 FROM bitnami/harbor-adapter-clair:_
+
+# Tags: 2.4.2-debian-10-r14
+FROM bitnami/harbor-adapter-clair:2.4.2-debian-10-r14
 
 # Tags: 2.4.2-debian-10-r13
 FROM bitnami/harbor-adapter-clair:2.4.2-debian-10-r13
